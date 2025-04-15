@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // ✅ If small screen, stack text vertically
             if (window.innerWidth <= 480) {
-                const original = "HAPPY BIRTHDAY KITTY THANH TUYỀN";
+                const original = "HAPPY BIRTHDAY ARALE BẢO NGỌC";
                 const stacked = original.split(" ").join("\n");
                 message.classList.add("break-vertical");
                 message.textContent = stacked;
